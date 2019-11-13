@@ -25,7 +25,7 @@ mounted() {
         this.newsUpdate = response.data.articles;
     })
     .catch(error => {
-        console.log(error.response)
+        alert(error.response)
     })
 },
 };
